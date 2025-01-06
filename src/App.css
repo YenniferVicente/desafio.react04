@@ -1,0 +1,224 @@
+html, body, #root {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+#root {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.App-container {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+nav {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+nav button {
+  background: none;
+  color: #fff;
+  border: none;
+  font-size: 16px;
+  cursor: pointer;
+  margin-right: 10px;
+  transition: color 0.3s;
+}
+
+nav button:hover {
+  color: #ffcc00;
+}
+
+nav button:last-child {
+  font-weight: bold;
+  background-color: #ff5722;
+  padding: 5px 10px;
+  border-radius: 5px;
+  color: white;
+}
+
+
+header {
+  background-image: url("./assets/images/pizza.jpg");
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 30vh;
+  color: #fff;
+}
+
+
+header h1 {
+  font-size: 2.5em;
+  margin-bottom: 10px;
+}
+
+header p {
+  font-size: 1.2em;
+  color: #eee;
+}
+
+/* Estilos para Home */
+.home {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.card-pizza {
+  max-width: 300px;
+  margin: 30px auto;
+  border-radius: 8px;
+  box-shadow: 0 8px 12px rgba(0, 0, 0, 0.3);
+}
+
+.card-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.card-footer {
+  padding: 5px;
+  border-top: 1px solid #ddd;
+}
+
+.btn {
+  margin: 5px;
+  padding: 8px 15px;
+  font-size: 1em;
+}
+
+.btn-primary {
+  background-color: #007bff;
+  border: none;
+  color: white;
+}
+
+.btn-success {
+  background-color: #28a745;
+  border: none;
+  color: white;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+  font-size: 0.9em;
+  position: relative;
+  width: 100%;
+  margin-top: auto;
+}
+
+footer p {
+  margin: 0;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  max-width: 300px;
+  margin: auto;
+}
+
+label {
+  margin: 5px 0;
+}
+
+input {
+  padding: 8px;
+  margin: 5px 0 15px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+button {
+  padding: 10px;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+button:hover {
+  background-color: #218838;
+}
+
+
+
+
+
+.container {
+  max-width: 800px; 
+  margin: 0 auto;   
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+
+.list-group-item img {
+  width: 80px;        
+  height: auto;       
+  border-radius: 8px; 
+}
+
+
+.list-group-item {
+  margin-bottom: 15px; 
+}
+
+
+h3 {
+  font-weight: bold;
+  color: #333;
+}
+
+
+.btn {
+  min-width: 40px; 
+}
+
+.btn-danger {
+  background-color: #dc3545; 
+  border: none;
+}
+
+.btn-success {
+  background-color: #28a745; 
+  border: none;
+}
+
+.btn-primary {
+  background-color: #007bff; 
+  border: none;
+  margin-inline: 35%;
+}
+
+.btn-primary:hover {
+  background-color: #0056b3; 
+}
+
+
